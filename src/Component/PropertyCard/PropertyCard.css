@@ -1,0 +1,33 @@
+.properties-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+}
+
+.property-card {
+  width: 300px;
+  padding: 20px;
+  border: 2px solid black;
+  border-radius: 15px;
+  background-color: white;
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+
+}
+.property-card:hover {
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+.property-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+.property-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
