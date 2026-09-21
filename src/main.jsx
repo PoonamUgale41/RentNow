@@ -1,33 +1,31 @@
-import { createRoot } from "react-dom/client";
-import { Toaster } from "react-hot-toast";
+import React from "react";
+
+import ReactDOM from "react-dom/client";
+
+import {BrowserRouter} from "react-router-dom";
+
+
+import App from "./App";
+
+
 import "./index.css";
 
-import {
-  BrowserRouter,
-  Routes,
-  Route,
-} from "react-router";
 
-import Home from "./views/Home/Home";
-import About from "./views/About/About";
-import Properties from "./views/Properties/Properties";
 
-const root = createRoot(document.getElementById("root"));
+ReactDOM
+.createRoot(
+document.getElementById("root")
+)
+.render(
 
-root.render(
-  <>
-    <BrowserRouter>
-      <Routes>
+<React.StrictMode>
 
-        <Route path="/" element={<Home />} />
+<BrowserRouter>
 
-        <Route path="/about" element={<About />} />
+<App />
 
-        <Route path="/properties" element={<Properties />} />
+</BrowserRouter>
 
-      </Routes>
-    </BrowserRouter>
+</React.StrictMode>
 
-    <Toaster />
-  </>
 );

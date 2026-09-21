@@ -1,0 +1,27 @@
+.primary-btn{
+
+background:#4e3d78;
+
+color:white;
+
+padding:13px 30px;
+
+border-radius:8px;
+
+font-size:16px;
+
+font-weight:600;
+
+transition:.3s;
+
+}
+
+
+
+.primary-btn:hover{
+
+background:#1d4ed8;
+
+transform:translateY(-2px);
+
+}

@@ -1,0 +1,79 @@
+.contact-page{
+
+padding:80px 0;
+
+}
+
+
+
+.contact-container{
+
+width:90%;
+
+max-width:600px;
+
+margin:auto;
+
+background:rgb(226, 218, 231);
+
+padding:40px;
+
+border-radius:15px;
+
+box-shadow:0 10px 25px rgba(0,0,0,.08);
+
+}
+
+
+
+.contact-container h1{
+
+text-align:center;
+
+margin-bottom:30px;
+
+}
+
+
+
+.contact-container input,
+.contact-container textarea{
+
+width:100%;
+padding:15px;
+background-color: white;
+margin-bottom:15px;
+color: black;
+border:1px solid #a9b1bb;
+border-radius:8px;
+outline:none;
+
+}
+
+
+
+.contact-container textarea{
+
+height:130px;
+
+resize:none;
+
+}
+
+
+
+.contact-container button{
+
+width:100%;
+
+padding:15px;
+
+background:#522964;
+
+color:white;
+
+border-radius:20px;
+
+font-weight:600;
+
+}
